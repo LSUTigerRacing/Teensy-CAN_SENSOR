@@ -34,16 +34,16 @@ BS_:
 
 BU_:
 
-BO_ 6B0 BMS1: 8 BMS
-    SG_ Pack_Current : 0|16@1+ (1,0) [-3276,3276] "" Dash
-    SG_ Pack_Insta_Volta : 16|16@1+ (1,0) [-3276,3276] "" Dash
-    SG_ Pack_SOC : 32|8@1+ (1,0) [0,255] "" Dash
-    SG_ Relay_State 40|16@1+ (1,0) [-3276,3276] "" Dash
-    SG_ Check_Sum 56|8@1+ (1,0) [0,255] "" Dash
+BO_ 1712 BMS1: 8 BMS
+    SG_ Pack_Current : 0|16@0+ (1,0) [-3276,3276] "" Dash
+    SG_ Pack_Insta_Volta : 16|16@0+ (1,0) [-3276,3276] "" Dash
+    SG_ Pack_SOC : 32|8@0+ (1,0) [0,255] "" Dash
+    SG_ Relay_State 40|16@0+ (1,0) [-3276,3276] "" Dash
+    SG_ Check_Sum 56|8@0+ (1,1720) [1720,1975] "" Dash
 
-BO_ 6B1 BMS2: 8 BMS
-    SG_ PACK_DCL : 0|16@1+ (1,0) [0,65535] "" Dash
-    SG_ PACK_CCL : 16|8@1+ (1,0) [0,255] "" Dash
-    SG_ Cell_High : 24|8@1+ (1,0) [0,255] "" Dash
-    SG_ Cell_Low : 32|8@1+ (1,0) [0,255] "" Dash
-    SG_ CRC_Check_Sum : 55|8@1+ (1,0) [0,255] "" Dash
+BO_ 1713 BMS2: 8 BMS
+    SG_ PACK_DCL : 0|16@0+ (1,0) [0,65535] "" Dash
+    SG_ PACK_CCL : 16|8@0+ (1,0) [0,255] "" Dash
+    SG_ Cell_High : 24|8@0+ (1,0) [0,255] "" Dash
+    SG_ Cell_Low : 32|8@0+ (1,0) [0,255] "" Dash
+    SG_ CRC_Check_Sum : 55|8@0+ (1,1721) [1721,1976] "" Dash

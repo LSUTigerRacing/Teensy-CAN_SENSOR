@@ -34,23 +34,23 @@ BS_:
 
 BU_:
 
-BO_ 17 General_Data1: 8 Motor_CNTRL
+BO_ 23 General_Data1: 8 Motor_CNTRL
     SG_ DUTY_CYCLE : 31|16@1+ (1,0) [-3276,3276] "%" Dash
     SG_ MC_INPUT_V : 47|16@1+ (1,0) [-3276,3276] "V" Dash
 
-BO_ 117 General_Data2: 8 Motor_CNTRL
+BO_ 279 General_Data2: 8 Motor_CNTRL
     SG_ AC_Current : 0|16@1+ (1,0) [-3276,3276] "" Dash
     SG_ DC_Current : 16|16@1+ (1,0) [-3276,3276] "" Dash
 
-BO_ 217 General_Data3: 8 Motor_CNTRL
+BO_ 535 General_Data3: 8 Motor_CNTRL
     SG_ MC_Temp : 0|16@1+ (1,0) [-3276,3276] "�C" Dash
     SG_ Motor_Temp : 16|16@1+ (1,0) [-3276,3276] "�C" Dash
     SG_ Fault_Code : 32|8@1+ (1,0) [0,255] "" Dash
 
-BO_ 317 General_Data4: 8 Motor_CNTRL
+BO_ 791 General_Data4: 8 Motor_CNTRL
     SG_ FOC_id : 0|32@1+ (1,0) [-21474836,21474836] "" Dash
     SG_ FOC_iq : 32|32@1+ (1,0) [-21474836,21474836] "" Dash
 
-BO_ 417 General_Data5: 8 Motor_CNTRL
+BO_ 1047 General_Data5: 8 Motor_CNTRL
     SG_ MC_Throttle : 0|8@1+ (1,0) [-128,128] "" Dash
     SG_ Brake : 8|16@1+ (1,0) [-128,128] "" Dash
