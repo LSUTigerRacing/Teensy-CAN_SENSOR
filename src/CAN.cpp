@@ -209,7 +209,6 @@ float decodeSignal(const uint8_t* frameData, Signal& sig) {
 }
 
 void processMessage(const CAN_message_t& msg) {
-    uint32_t decodedData[8];
     pendingMessage = true;
     msg_cpy = msg;
     switch (msg.id) {

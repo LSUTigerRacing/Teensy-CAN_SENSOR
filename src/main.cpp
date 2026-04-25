@@ -1,12 +1,19 @@
 #include <Arduino.h>
 #include "CAN.hpp"
-#include <LCD_I2C.h>
+#include "screen.hpp"
 #include "datalogger.hpp"
 
 void setup() {
   Serial.begin(115200);
+  LCD_init();
+  CAN_init();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  can1.events();
+  if(pendingMessage){
+    pendingMessage = false; 
+    RecordData();
+    LCD_Update();
+  }
 }
