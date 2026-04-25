@@ -5,8 +5,10 @@
 
 void setup() {
   Serial.begin(115200);
+  datalogger logger.begin();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  can1.events();
+  logger.RecordData();
 }
