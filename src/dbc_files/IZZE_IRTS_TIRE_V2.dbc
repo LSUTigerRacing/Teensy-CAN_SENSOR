@@ -1,0 +1,137 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1200 LF_IRTS_Tire_1: 8 Vector__XXX
+ SG_ LF_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1201 LF_IRTS_Tire_2: 8 Vector__XXX
+ SG_ LF_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1202 LF_IRTS_Tire_3: 8 Vector__XXX
+ SG_ LF_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1203 LF_IRTS_Tire_4: 8 Vector__XXX
+ SG_ LF_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LF_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1204 RF_IRTS_Tire_1: 8 Vector__XXX
+ SG_ RF_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1205 RF_IRTS_Tire_2: 8 Vector__XXX
+ SG_ RF_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1206 RF_IRTS_Tire_3: 8 Vector__XXX
+ SG_ RF_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1207 RF_IRTS_Tire_4: 8 Vector__XXX
+ SG_ RF_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RF_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1208 LR_IRTS_Tire_1: 8 Vector__XXX
+ SG_ LR_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1209 LR_IRTS_Tire_2: 8 Vector__XXX
+ SG_ LR_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1210 LR_IRTS_Tire_3: 8 Vector__XXX
+ SG_ LR_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1211 LR_IRTS_Tire_4: 8 Vector__XXX
+ SG_ LR_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ LR_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1212 RR_IRTS_Tire_1: 8 Vector__XXX
+ SG_ RR_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1213 RR_IRTS_Tire_2: 8 Vector__XXX
+ SG_ RR_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1214 RR_IRTS_Tire_3: 8 Vector__XXX
+ SG_ RR_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+BO_ 1215 RR_IRTS_Tire_4: 8 Vector__XXX
+ SG_ RR_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+ SG_ RR_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "°C" Vector__XXX
+
+
+
+
