@@ -1,14 +1,9 @@
 #include <SD.h>
 #include <SPI.h>
 #include <time.h>
+#include "CAN.hpp"
 
-class datalogger
-{
-private:
-    char fileName[16];
-    File dataFile;
-public:
-    datalogger();
-    ~datalogger();
-    void RecordData(String message, int data[]);
-};
+extern char fileName[16];
+extern File dataFile;
+void datalogger_init();
+void RecordData(CAN_message_t msg);
