@@ -6,6 +6,7 @@
 void setup() {
   Serial.begin(115200);
   LCD_init();
+  datalogger_init();
   CAN_init();
 }
 
@@ -13,7 +14,7 @@ void loop() {
   can1.events();
   if(pendingMessage){
     pendingMessage = false; 
-    RecordData();
+    RecordData(msg_cpy);
     LCD_Update();
   }
 }
