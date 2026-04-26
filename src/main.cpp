@@ -13,7 +13,7 @@ void loop() {
   can1.events();
   if(pendingMessage){
     pendingMessage = false; 
-    RecordData();
+    RecordData(msg_cpy);
     LCD_Update();
   }
 }
