@@ -3,17 +3,18 @@
     char fileName[16];
     File dataFile;
     void datalogger_init(){
-        if(!SD.begin(BUILTIN_SDCARD)){
+        if(SD.begin(BUILTIN_SDCARD)){
             int driveNum = 0;
-            sniprintf(fileName, sizeof(fileName), "Drive%4d.csv", driveNum); 
+            snprintf(fileName, sizeof(fileName), "Drive%d.csv", driveNum); 
             bool fileExists = SD.exists(fileName);
             while(fileExists){
-                sniprintf(fileName, sizeof(fileName), "Drive%4d.csv", driveNum); 
+                snprintf(fileName, sizeof(fileName), "Drive%d.csv", driveNum); 
                 SD.exists(fileName);
                 ++driveNum;
             }
             dataFile = SD.open(fileName,FILE_WRITE);
             dataFile.println("Time, Message, Val_1, Val_2, Val_3, Val_4, Val_5, Val_6, Val_7, Val_8");
+            dataFile.flush();
         }
         else{
             Serial.printf("Error connecting to SD card \n");
@@ -201,8 +202,9 @@ case 1237: // RR_IRTS_Brake_3
 case 1238: // RR_IRTS_Brake_4
     dataFile.printf("%3f,%3f,%3f,%3f\n", sigName.RR_Rotor_Temp_13, sigName.RR_Rotor_Temp_14, sigName.RR_Rotor_Temp_15, sigName.RR_Rotor_Temp_16);
     break;
-        default:
-            // Unknown message ID
-            break;
+default:
+    // Unknown message ID
+    break;
     }
+    dataFile.flush();
 }
